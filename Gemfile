@@ -31,4 +31,8 @@ group :test do
   gem 'webrat', '0.7.3'
   gem 'spork', '0.9.2'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'autotest-fsevent'
+  gem 'autotest-growl'
 end
