@@ -1,12 +1,16 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.11'
+ruby '1.9.3'
+
+gem 'rails', '3.2.12'
 
 gem 'sqlite3', '1.3.7', :group => :development
 
 gem 'pg', '0.14.1'
 
 gem 'activerecord-postgresql-adapter', '0.0.1'
+
+gem 'heroku'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
