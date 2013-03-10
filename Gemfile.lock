@@ -42,6 +42,7 @@ GEM
     autotest-growl (0.2.16)
     autotest-rails-pure (4.1.2)
     builder (3.0.4)
+    chronic (0.9.1)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -168,6 +169,7 @@ DEPENDENCIES
   autotest-fsevent
   autotest-growl
   autotest-rails-pure
+  chronic
   coffee-rails (~> 3.2.1)
   factory_girl_rails (= 4.2.1)
   faker (= 1.1.2)

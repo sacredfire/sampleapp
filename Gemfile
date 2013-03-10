@@ -13,6 +13,8 @@ gem 'activerecord-postgresql-adapter', '0.0.1'
 
 gem 'heroku'
 
+gem 'chronic'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
