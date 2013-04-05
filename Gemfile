@@ -7,7 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3', '1.3.7', :group => :development
 
-gem 'pg', '0.14.1'
+gem 'pg'
 
 gem 'activerecord-postgresql-adapter', '0.0.1'
 
@@ -23,23 +23,29 @@ end
 
 gem 'jquery-rails'
 
-gem 'gravatar_image_tag', '1.1.3'
+gem 'gravatar_image_tag'
 
-gem 'will_paginate', '3.0.4'
+gem 'will_paginate'
 
 group :development do
   gem 'rspec-rails', '~> 2.8'
-  gem 'annotate', '2.5.0'
-  gem 'faker', '1.1.2'
+  gem 'annotate'
+  gem 'faker'
 end
 
 group :test do
   gem 'rspec-rails', '~> 2.8'
-  gem 'webrat', '0.7.3'
-  gem 'spork', '0.9.2'
-  gem 'factory_girl_rails', '4.2.1'
+  gem 'webrat'
+  gem 'spork'
+  gem 'factory_girl_rails'
   gem 'autotest'
   gem 'autotest-rails-pure'
   gem 'autotest-fsevent'
   gem 'autotest-growl'
+  gem 'capybara'
+  gem 'rb-fsevent', :require => false
+  gem 'growl'
+  gem 'guard-rspec'
+  gem 'guard-spork'
 end
+
