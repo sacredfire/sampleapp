@@ -5,6 +5,8 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.13'
 
+gem 'bootstrap-sass'
+
 gem 'sqlite3', '1.3.7', :group => :development
 
 gem 'pg'

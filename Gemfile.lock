@@ -41,6 +41,8 @@ GEM
       sys-uname
     autotest-growl (0.2.16)
     autotest-rails-pure (4.1.2)
+    bootstrap-sass (2.3.1.0)
+      sass (~> 3.2)
     builder (3.0.4)
     capybara (2.0.3)
       mime-types (>= 1.16)
@@ -215,6 +217,7 @@ DEPENDENCIES
   autotest-fsevent
   autotest-growl
   autotest-rails-pure
+  bootstrap-sass
   capybara
   chronic
   coffee-rails (~> 3.2.1)
