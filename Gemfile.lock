@@ -267,6 +267,3 @@ DEPENDENCIES
   uglifier (>= 1.0.3)
   webrat
   will_paginate
-
-BUNDLED WITH
-   1.11.0
